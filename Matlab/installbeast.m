@@ -1,3 +1,4 @@
+disp("test")
 % system("gcc -c -fPIC -pthread -DNDEBUG -DM_RELEASE -DMATLAB_DEFAULT_RELEASE=R2017b -I/MATLAB/extern/include -O2 -Wall  -std=gnu99 -mfpmath=sse -msse2 -mstackrealign  *.c")
 % system("g++ -c -fPIC -pthread -DNDEBUG -DM_RELEASE -DMATLAB_DEFAULT_RELEASE=R2017b -I/MATLAB/extern/include  -O2 -Wall    -mfpmath=sse -msse2 -mstackrealign  *.cpp")
 % system("gcc -shared -pthread -L/MATLAB/bin/glnxa64 -lmx -lmex -lmat -lm -lut -lmwservices *.o -o Rbeast.mexa64")
